@@ -1,4 +1,6 @@
 
+import React from 'react'
+
 
 
 
@@ -15,7 +17,7 @@ function App() {
       <Cronomrtro></Cronomrtro>
       <div className="App">
         <h1>Mi Cronómetro</h1>
-        <Cronomrtro />
+        
       </div>
       <div className="footer">
         <p>© 2023 Mi Cronómetro. Todos los derechos reservados.</p>
@@ -28,7 +30,7 @@ function App() {
         .footer {
           margin-top: 20px;
           padding: 10px;
-          background-color: #f1f1f1;
+          background-color:rgb(105, 60, 60);
         }
       `}</style>
     </>
