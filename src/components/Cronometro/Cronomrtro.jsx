@@ -48,6 +48,7 @@ const Cronomrtro = () => {
     <div>
       <h2>Cronómetro</h2>
       <p>Tiempo: {formatearTiempo(tiempo)}</p>
+      <h1> {tiempo} {tiempo > 10 && '🎉'}</h1>
       <button onClick={iniciar}>Iniciar</button>
       <button onClick={detener}>Detener</button>
       <button onClick={reiniciar}>Reiniciar</button>
